@@ -1,0 +1,25 @@
+{
+  "name": "node-gpswebtrack",
+  "description": "Node.js simple gps position tracker",
+  "version": "0.1.0",
+  "keywords": ["gps", "gpswebtrack", "location", "position"],
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "jade": "~1.3.0",
+    "node-gpsd": "~0.2.0",
+    "socket.io": "~0.9.17",
+    "underscore": "~1.6.0"
+  },
+  "maintainers": [{"name": "Andrea Galbusera"
+                  ,"email": "gizero@gmail.com"
+  }]
+}
